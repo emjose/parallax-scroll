@@ -20,7 +20,7 @@ h2 {
   font-weight: 700;
   font-style: normal;
   color: white;
-  font-size: 2.5em;
+  font-size: 5em;
   margin-bottom: 10px;
 }
 
@@ -57,4 +57,35 @@ section::before {
 .sec {
   position: relative;
   padding: 100px;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#moon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+}
+
+#cloud1 {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  max-width: 600px;
+}
+
+#cloud2 {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  max-width: 600px;
 }
