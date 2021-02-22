@@ -40,6 +40,17 @@ p {
   margin-bottom: 20px;
 }
 
+p {
+  background-color: #052238;
+  overflow: hidden;
+  /* font-weight: bolder; */
+}
+
+p span {
+  display: inline-block;
+  transform: translateY(100%);
+}
+
 #last-line {
   font-family: open-sans, sans-serif;
   font-weight: 600;
