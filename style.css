@@ -19,4 +19,13 @@ h2 {
   font-family: futura-pt-bold, sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: white;
+}
+
+body {
+  background: #0a2a43;
+}
+
+p {
+  color: white;
 }
