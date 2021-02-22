@@ -89,3 +89,10 @@ section::before {
   right: 0;
   max-width: 600px;
 }
+
+#jet {
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  max-width: 100%;
+}
