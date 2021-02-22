@@ -54,7 +54,8 @@ section::before {
   width: 100%;
   height: 100px;
   background: linear-gradient(to top, #0a2a43, transparent);
-  z-index: 1000;
+  z-index: 100000;
+  /* this z-index fixes bottom gradient on iron man */
 }
 
 .sec {
