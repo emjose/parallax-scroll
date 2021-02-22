@@ -49,7 +49,7 @@
             scale: 1.5
         })
 
-        // Moon sliding to the left
+        // Moon sliding to the left and scaling up
         gsap.to("#moon", {
             scrollTrigger: {
                 scrub: true
@@ -72,6 +72,26 @@
                 scrub: true
             },
             x: 300,
+        })
+
+        // Jet sliding to the lower right and scaling up
+        gsap.to("#jet", {
+            scrollTrigger: {
+                scrub: true
+            },
+            x: 1000,
+            y: 200,
+            scale: 4
+        })
+
+        // Iron Man sliding up on y-axis
+        gsap.to("#ironman", {
+            scrollTrigger: {
+                scrub: true
+            },
+            x: 0,
+            y: -1800,
+            scale: 1
         })
     </script>
 </body>
