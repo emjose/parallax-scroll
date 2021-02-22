@@ -21,11 +21,12 @@ h2 {
   font-style: normal;
   color: white;
   font-size: 5em;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 body {
-  background: #0a2a43;
+  /* background: #0a2a43; */
+  background: #052238;
 }
 
 p {
@@ -33,9 +34,17 @@ p {
   font-family: open-sans, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.2em;
-  line-height: 1.75;
+  font-size: 1.4em;
+  line-height: 1.7;
   justify-content: justify;
+  margin-bottom: 20px;
+}
+
+#last-line {
+  font-family: open-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
 }
 
 section {
@@ -54,7 +63,7 @@ section::before {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background: linear-gradient(to top, #0a2a43, transparent);
+  background: linear-gradient(to top, #052238, transparent);
   z-index: 100000;
   /* this z-index fixes bottom gradient on iron man */
 }
@@ -107,7 +116,5 @@ section::before {
   position: absolute;
   top: 110%;
   z-index: 10000;
-  max-width: 110%;
-  /* margin-left: 15%; */
-  transform: rotate(-15deg);
+  transform: scale(0);
 }

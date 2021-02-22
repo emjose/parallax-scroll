@@ -22,19 +22,18 @@
         <div class="content">
             <h2>I AM IRON MAN</h2>
             <p>Everybody wants a happy ending, right? But it doesn't always roll that way. Maybe this time. I'm hoping if you play this
-            back... it's in celebration. I hope families are reunited. I hope we get it back, in somewhat like a normal version of
+            back... it's in celebration. I hope families are reunited. I hope we get it back and something like a normal version of
             the planet has been restored, if there ever was such a thing.</p>
             <br>
-            <p>God, what a world. Universe now. If you told me 10 years ago that we weren't alone, let alone you know to this extent...
+            <p>God, what a world. Universe now. If you told me ten years ago that we weren't alone, let alone you know to this extent...
             I mean, I wouldn't have been surprised. But come on, you know. That epic forces of darkness and light that have come
-            into play. And for better or worse, that's the reality Morgan's going to find a way to grow up in. So I found a private
-            area to record a little greeting in case of an untimely death on my part. Not that death at any time is ever timely.</p>
+            into play. And for better or worse, that's the reality Morgan's gonna have to find a way to grow up in. So I thought I better record a little greeting, in the case of an untimely death, on my part. Not that death at any time is ever timely.</p>
             <br>
-            <p>This time travel thing that we are going to pull off tomorrow... it's got me scratching my head about the survivability
-            of all this. But then again that's the hero gig. Part of the journey is the end. What am I tripping for? Everything is
+            <p>This time travel thing that we're gonna try and pull off tomorrow... it's got me scratching my head about the survivability
+            of all this. But then again that's the hero gig. Part of the journey is the end. What am I even tripping for? Everything is
             going to work out exactly the way it's supposed to.</p>
             <br>
-            <p>I love you 3000.</p>
+            <p id="last-line">I love you 3000.</p>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
@@ -84,14 +83,15 @@
             scale: 3
         })
 
-        // Iron Man sliding up on y-axis
+        // Iron Man sliding up on y-axis, scaling and rotating to the left
         gsap.to("#ironman", {
             scrollTrigger: {
                 scrub: true
             },
             x: 0,
             y: -1800,
-            scale: 1.5
+            scale: 2.5,
+            rotate: -30
         })
     </script>
 </body>
