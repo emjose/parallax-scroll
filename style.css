@@ -15,6 +15,13 @@ font-style: normal; */
   box-sizing: border-box;
 }
 
+body {
+  /* background: #0a2a43; */
+  background: #052238;
+}
+
+/* Visible Title Styling */
+
 h2 {
   font-family: futura-pt-bold, sans-serif;
   font-weight: 700;
@@ -24,10 +31,19 @@ h2 {
   margin-bottom: 20px;
 }
 
-body {
-  /* background: #0a2a43; */
-  background: #052238;
+/* Hidden Title Styling */
+
+/* h2 {
+  background-color: #052238;
+  overflow: hidden;
 }
+
+h2 span {
+  display: inline-block;
+  transform: translateY(100%);
+} */
+
+/* Visible Transcript Styling */
 
 p {
   color: white;
@@ -40,22 +56,23 @@ p {
   margin-bottom: 20px;
 }
 
-p {
+/* Hidden Transcript Styling */
+
+/* p {
   background-color: #052238;
   overflow: hidden;
-  /* font-weight: bolder; */
-}
+} */
 
-p span {
+/* p span {
   display: inline-block;
   transform: translateY(100%);
-}
+} */
 
 #last-line {
   font-family: open-sans, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 section {
@@ -82,6 +99,7 @@ section::before {
 .sec {
   position: relative;
   padding: 100px;
+  height: 100vh;
 }
 
 #bg {
