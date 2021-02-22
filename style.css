@@ -35,6 +35,7 @@ p {
   font-style: normal;
   font-size: 1.2em;
   line-height: 1.75;
+  justify-content: justify;
 }
 
 section {
@@ -107,4 +108,6 @@ section::before {
   top: 110%;
   z-index: 10000;
   max-width: 110%;
+  /* margin-left: 15%; */
+  transform: rotate(-15deg);
 }
