@@ -13,7 +13,7 @@
 
 <br>
 
-<a href="https://emjose.github.io/">![Parallax Scroll](Assets/preview-017-parallax-scroll.png)</a> 
+<a href="https://emjose.github.io/parallax-scroll/">![Parallax Scroll](Assets/preview-017-parallax-scroll.png)</a> 
 
 #
 
@@ -41,7 +41,14 @@
 
 <a href=#table-of-contents>![Installation](Assets/inter-installation.png)</a>
 
-<a href=#installation>![under construction](Assets/lorem-text.png)</a>
+#### Git clone and cd into the repo folder:
+``` 
+git clone git@github.com:emjose/parallax-scroll.git && cd parallax-scroll
+```
+#### Run the command:
+```
+open index.html
+```
 
 #
 
@@ -49,7 +56,7 @@
 
 <a href=#table-of-contents>![Demos](Assets/inter-demo.png)</a>  
 
-<a href=#demo>![under construction](Assets/lorem-text.png)</a>
+<a href="https://emjose.github.io/parallax-scroll/">![under construction](Assets/lorem-demo.png)</a>
 
 #
 
