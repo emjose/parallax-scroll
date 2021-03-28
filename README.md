@@ -26,6 +26,7 @@
 - [Installation](#installation) 
 - [Live Site](#live-site)
 - [Resources](#resources)
+- [Copyright](#copyright)
 - [Let's Connect!](#lets-connect) 
 
 #
@@ -34,7 +35,13 @@
 
 <a href=#100days>![#100DaysOfCode](Assets/inter-100hash.png)</a>  
 
-<a href=#100days>![Under Construction](Assets/lorem-text.png)</a>
+### Day 17: February 24, 2021
+- I followed a <a href="https://youtu.be/zIlXK2_bxZc">cool Youtube tutorial</a> on an Iron Man parallax effect. 
+
+- The tutorial introduced me to the <a href="https://greensock.com/">GreenSock Animation Platform (GSAP)</a> and its powerful <a href="https://greensock.com/scrolltrigger/">ScrollTrigger</a> plugin.
+
+- The text in the parallax scroll effect is from Tony Stark's monologue in the Marvel Studios film, <a href="https://www.marvel.com/movies/avengers-endgame">Avengers: Endgame</a>.
+
 
 #
 
@@ -57,7 +64,7 @@ open index.html
 
 <a href="https://emjose.github.io/parallax-scroll/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/parallax-scroll/">![Under Construction](Assets/lorem-live.png)</a>
+<a href="https://emjose.github.io/parallax-scroll/">![Live Site](Assets/017-ironman.gif)</a>
 
 #
 
@@ -65,7 +72,23 @@ open index.html
 
 <a href=#resources>![Resources](Assets/inter-resources.png)</a>  
 
-<a href=#resources>![Under Construction](Assets/lorem-text.png)</a>
+- #### [Iron Man Parallax Tutorial, Part 1](https://youtu.be/zIlXK2_bxZc) by [Technical Tuts 4u](https://www.youtube.com/channel/UCeDbQlQY8jP9wGmBaVWhHMA)
+
+- #### [Iron Man Parallax Tutorial, Part 2](https://youtu.be/NR2vyUulNXQ) by [Technical Tuts 4u](https://www.youtube.com/channel/UCeDbQlQY8jP9wGmBaVWhHMA)
+
+- #### [GSAP: GreenSock Animation Platform](https://greensock.com/)
+
+- #### [ScrollTrigger plugin by GreenSock](https://greensock.com/scrolltrigger/)
+
+#
+
+<p id="copyright"><p>
+
+<a href=#copyright>![Copyright](Assets/inter-copyright.png)</a>
+
+- This project is for made for educational purposes only. 
+  
+- All Iron Man images and characters are copyright of <a href="https://www.marvel.com/">MARVEL</a>. © MARVEL
 
 #
 
