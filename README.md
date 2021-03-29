@@ -88,7 +88,7 @@ open index.html
 
 - This project is for made for educational purposes only. 
   
-- All Iron Man images and characters are copyright of <a href="https://www.marvel.com/">MARVEL</a>. © MARVEL
+- All Iron Man images and characters are copyright of <a href="https://www.marvel.com/">MARVEL</a>. © MARVEL. All Rights Reserved.
 
 #
 
