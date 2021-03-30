@@ -40,7 +40,7 @@
 
 - The tutorial introduced me to the <a href="https://greensock.com/">GreenSock Animation Platform (GSAP)</a> and its powerful <a href="https://greensock.com/scrolltrigger/">ScrollTrigger</a> plugin.
 
-- The text in the parallax scroll effect is from Tony Stark's monologue in the Marvel Studios film, <a href="https://www.marvel.com/movies/avengers-endgame">Avengers: Endgame</a>.
+- The text in the parallax scroll effect is from Tony Stark's monologue in the Marvel Studios film, <a href="https://www.marvel.com/movies/avengers-endgame">Avengers: Endgame</a>. Tony Stark is portrayed by the actor <a href="https://www.imdb.com/name/nm0000375/">Robert Downey Jr</a>.
 
 
 #
