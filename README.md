@@ -51,13 +51,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/parallax-scroll.git && cd parallax-scroll
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
@@ -92,6 +92,7 @@ open index.html
 <a href=#copyright>![Copyright](https://res.cloudinary.com/dn1e07eul/image/upload/v1659391383/Readme%20Headers/inter-copyright_ax53yz.png)</a>
 
 -   This project is for made for educational purposes only.
+
 -   All Iron Man images and characters are copyright of <a href="https://www.marvel.com/">MARVEL</a>. © MARVEL. All Rights Reserved.
 
 #
