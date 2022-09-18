@@ -1,0 +1,40 @@
+{
+	"name": "Parallax Scroll",
+	"short_name": "Parallax Scroll",
+	"icons": [
+		{
+			"src": "Assets/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/android-chrome-200x200.png",
+			"sizes": "200x200",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "Assets/favicon-16x16.png",
+			"sizes": "16x16",
+			"type": "image/png"
+		},
+		{
+			"src": "Assets/favicon-32x32.png",
+			"sizes": "32x32",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#052238",
+	"background_color": "#052238",
+	"display": "standalone",
+	"lang": "en-US",
+	"id": "https://emjose.github.io/parallax-scroll/",
+	"start_url": "/parallax-scroll/",
+	"scope": "/parallax-scroll/",
+	"description": "A parallax scroll demo with Iron Man."
+}
