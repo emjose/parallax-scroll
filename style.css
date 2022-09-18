@@ -1,149 +1,184 @@
 @import url("https://use.typekit.net/eia7dfc.css");
 @import url("https://use.typekit.net/eia7dfc.css");
 
-/* font-family: open-sans, sans-serif;
-font-weight: 400;
-font-style: normal; */
-
-/* font-family: open-sans, sans-serif;
-font-weight: 600;
-font-style: normal; */
+:root {
+	--black: #000;
+	--white: #fff;
+	--dark-blue: #052238;
+	--github-fill: var(--white);
+	--github-color: var(--black);
+	--github-focus: orange;
+	--futura: futura-pt-bold, sans-serif;
+	--open-sans: open-sans, sans-serif;
+}
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-  /* background: #0a2a43; */
-  background: #052238;
+	background: var(--dark-blue);
 }
 
 /* Visible Title Styling */
 
 h2 {
-  font-family: futura-pt-bold, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  color: white;
-  font-size: 5em;
-  margin-bottom: 20px;
+	font-family: var(--futura);
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+	font-size: 5em;
+	margin-bottom: 20px;
 }
 
 /* Hidden Title Styling */
 
-/* h2 {
-  background-color: #052238;
-  overflow: hidden;
-}
-
-h2 span {
-  display: inline-block;
-  transform: translateY(100%);
-} */
-
-/* Visible Transcript Styling */
-
 p {
-  color: white;
-  font-family: open-sans, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.4em;
-  line-height: 1.7;
-  justify-content: justify;
-  margin-bottom: 20px;
+	color: var(--white);
+	font-family: var(--open-sans);
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.4em;
+	line-height: 1.7;
+	justify-content: justify;
+	margin-bottom: 20px;
 }
 
 /* Hidden Transcript Styling */
 
-/* p {
-  background-color: #052238;
-  overflow: hidden;
-} */
-
-/* p span {
-  display: inline-block;
-  transform: translateY(100%);
-} */
-
 #last-line {
-  font-family: open-sans, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.5em;
+	font-family: var(--open-sans);
+	font-weight: 600;
+	font-style: normal;
+	font-size: 1.5em;
 }
 
 section {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 section::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 100px;
-  background: linear-gradient(to top, #052238, transparent);
-  z-index: 100000;
-  /* this z-index fixes bottom gradient on iron man */
+	content: "";
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, var(--dark-blue), transparent);
+	z-index: 100000;
+	/* this z-index fixes bottom gradient on iron man */
 }
 
 .sec {
-  position: relative;
-  padding: 100px;
-  height: 100vh;
+	position: relative;
+	padding: 100px;
+	height: 100vh;
 }
 
 #bg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  pointer-events: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
 }
 
 #moon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  max-width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 100%;
 }
 
 #cloud1 {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  max-width: 600px;
+	position: absolute;
+	top: 100px;
+	left: 0;
+	max-width: 600px;
 }
 
 #cloud2 {
-  position: absolute;
-  top: 100px;
-  right: 0;
-  max-width: 600px;
+	position: absolute;
+	top: 100px;
+	right: 0;
+	max-width: 600px;
 }
 
 #jet {
-  position: absolute;
-  left: 150px;
-  top: 50px;
-  max-width: 100%;
-  transform: scale(0);
+	position: absolute;
+	left: 150px;
+	top: 50px;
+	max-width: 100%;
+	transform: scale(0);
 }
 
 #ironman {
-  position: absolute;
-  top: 110%;
-  z-index: 10000;
-  transform: scale(0);
+	position: absolute;
+	top: 110%;
+	z-index: 10000;
+	transform: scale(0);
+}
+
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
+}
+
+.github-corner:hover .octo-arm,
+.github-corner:focus .octo-arm {
+	animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+	0%,
+	100% {
+		transform: rotate(0);
+	}
+
+	20%,
+	60% {
+		transform: rotate(-25deg);
+	}
+
+	40%,
+	80% {
+		transform: rotate(10deg);
+	}
+}
+
+@media (max-width: 500px) {
+	.github-corner:hover .octo-arm {
+		animation: none;
+	}
+
+	.github-corner .octo-arm {
+		animation: octocat-wave 560ms ease-in-out;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	h2 {
+		font-size: 2.5em;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	.sec {
+		padding: 20% 10%;
+	}
 }
